@@ -11,11 +11,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Run playbook
-        uses: dawidd6/action-ansible-playbook@v2
+      - name: Play Ansible Playbook
+        uses: arillso/action.playbook@master
         with:
-          playbook: playbook.yml
-          directory: ./
-          options: |
-            --syntax-check
-            --verbose
+          playbook: ./playbook.yml
+          inventory: tests/inventory
+          syntax_check: true
