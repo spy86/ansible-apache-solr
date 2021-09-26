@@ -1,2 +1,2 @@
 # Ansible apache solr server playbook
-[![Build Status](https://travis-ci.org/spy86/ansible-haproxy.svg?branch=master)](https://travis-ci.org/spy86/ansible-haproxy)
+[![AnsibleTest](https://github.com/spy86/ansible-apache-solr/actions/workflows/main.yml/badge.svg)](https://github.com/spy86/ansible-apache-solr/actions/workflows/main.yml)
