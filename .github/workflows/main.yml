@@ -18,5 +18,4 @@ jobs:
           directory: ./
           options: |
             --syntax-check
-            --inventory 127.0.0.1
             --verbose
