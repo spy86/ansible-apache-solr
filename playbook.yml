@@ -30,7 +30,7 @@
         creates: "{{ download_dir }}/solr-{{ solr_version }}/README.txt"
 
     - name: Run Solr installation script.
-      shell: >
+      shell########: >
         {{ download_dir }}/solr-{{ solr_version }}/bin/install_solr_service.sh
         {{ download_dir }}/solr-{{ solr_version }}.tgz
         -i /opt
