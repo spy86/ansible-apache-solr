@@ -14,6 +14,6 @@ jobs:
       - name: Play Ansible Playbook
         uses: arillso/action.playbook@master
         with:
-          playbook: ./playbook.yml
+          playbook: playbook.yml
           inventory: tests/inventory
           syntax_check: true
