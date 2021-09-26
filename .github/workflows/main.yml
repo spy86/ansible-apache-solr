@@ -15,6 +15,9 @@ jobs:
         uses: dawidd6/action-ansible-playbook@v2
         with:
           playbook: playbook.yml
-          directory: tests/inventory
+          directory: ./
+          inventory: localhost
           options: |
+            --inventory .hosts
             --syntax-check
+            --verbose
