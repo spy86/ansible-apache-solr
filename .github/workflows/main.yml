@@ -18,6 +18,5 @@ jobs:
           directory: ./
           inventory: localhost
           options: |
-            --inventory .hosts
             --syntax-check
             --verbose
