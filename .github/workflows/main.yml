@@ -16,7 +16,7 @@ jobs:
         with:
           playbook: playbook.yml
           directory: ./
-          inventory: localhost
           options: |
             --syntax-check
+            --inventory 127.0.0.1
             --verbose
